@@ -236,7 +236,7 @@ const Home = () => {
 
   return (
     <>
-      <div className="relative w-full overflow-hidden bg-white shadow-lg">
+      <div className="relative md:h-160 w-full overflow-hidden bg-white shadow-lg">
         {/* Hero Image */}
         <img
             src="/images/home.png"
@@ -249,7 +249,7 @@ const Home = () => {
           object-center
           sm:h-[550px]
           md:h-[500px]
-          lg:h-[550px]
+          lg:h-[650px]
           "
         />
 
@@ -267,7 +267,7 @@ const Home = () => {
 
           {/* Text */}
           <div
-            className="relative w-full mb-20 px-5 pt-8
+            className="relative w-full mb-20 px-10 pt-25 mt-8
             sm:w-[80%]
             sm:px-8
             md:w-[65%]
@@ -293,13 +293,13 @@ const Home = () => {
             </p>
             <div className="flex items-center gap-8 mt-6 ">
               <button
-                className="bg-orange-500 p-2 px-6 rounded-2xl text-2xl  text-white cursor-pointer"
+                className="bg-orange-500 py-2 px-6 rounded-2xl text-2xl  text-white cursor-pointer"
                 onClick={aboutUs}
               >
                 About Us
               </button>
               <button
-                className="bg-orange-500 p-2 px-6 rounded-2xl text-2xl text-white cursor-pointer"
+                className="bg-orange-500 py-2 px-6 rounded-2xl text-2xl text-white cursor-pointer"
                 onClick={hanti}
               >
                 Properties

@@ -50,7 +50,7 @@ const Nav = () => {
 
         {/* MOBILE MENU */}
         {isOpen && (
-          <nav className="absolute left-0 right-0 top-full z-50 flex w-full flex-col gap-6 py-10 px-4 rounded-2xl bg-orange-500 p-6 text-white shadow-lg md:hidden">
+          <nav className="absolute left-0 right-0 top-full z-50 flex w-full flex-col items-center gap-6 bg-orange-500 p-6 text-white shadow-lg md:hidden">
             <NavLink
               onClick={() => setIsOpen(false)}
               className={"font-bold "}

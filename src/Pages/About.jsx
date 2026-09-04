@@ -1,7 +1,7 @@
 const About = () => {
   return (
     <div className="min-h-screen overflow-hidden bg-gradient-to-br from-orange-50 to-rose-100">
-      <div className="relative w-full overflow-hidden bg-white shadow-lg">
+      <div className="relative h-160 w-full overflow-hidden bg-white shadow-lg ">
         {/* Hero Image */}
         <img
           src="/images/hero.png"
@@ -14,7 +14,7 @@ const About = () => {
         object-center
         sm:h-[550px]
         md:h-[500px]
-        lg:h-[550px]
+        lg:h-[650px]
       "
         />
 
@@ -31,7 +31,7 @@ const About = () => {
 
           {/* Text */}
           <div
-            className=" relative  w-full mb-20 px-5pt-10
+            className=" relative  w-full mb-20  pt-10 px-10
           sm:w-[80%]
           sm:px-8
           md:w-[65%]
@@ -219,7 +219,7 @@ const About = () => {
             />
           </div>
 
-          <div className="relative mt-4 flex flex-col justify-center sm:mt-6 sm:py-4 lg:-mt-2 lg:-ml-20 lg:py-6">
+          <div className="relative mb-6 flex flex-col justify-center sm:mt-6 sm:py-4 lg:-mt-2 lg:-ml-20 lg:py-6">
             <div className="w-full rounded-2xl bg-orange-500 p-4 sm:p-6 lg:max-w-md lg:p-8">
               <h1 className="font-bold text-gray-900 text-xl sm:text-2xl md:text-3xl">
                 Hadafkeenna

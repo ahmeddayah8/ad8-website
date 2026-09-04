@@ -164,7 +164,7 @@ const Agents = () => {
                 <div className="flex justify-between px-4 pt-4 ">
                   <div>
                     <p className="text-lg font-medium text-gray-600">
-                      experience {agent.experience}
+                      🧠 {agent.experience}
                     </p>
                   </div>
                   <div>

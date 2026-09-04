@@ -93,7 +93,7 @@ const Contact = () => {
       </div>
 
       {/* contact side bar */}
-      <div className="min-h-screen w-full max-w-full overflow-x-hidden bg-gradient-to-br from-orange-50 to-rose-100 px-4 py-8">
+      <div className="min-h-screen w-full max-w-full overflow-x-hidden bg-gradient-to-br from-orange-50 to-rose-100  py-8">
         <div className="grid w-full grid-cols-1 gap-6 p-10 lg:grid-cols-2">
           <aside className="bg-white rounded-2xl p-6 shadow-lg lg:col-span-1">
             <h2 className="text-2xl font-bold text-gray-900">
