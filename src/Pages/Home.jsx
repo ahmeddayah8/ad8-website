@@ -236,12 +236,12 @@ const Home = () => {
 
   return (
     <>
-      <div className="relative md:h-160 w-full overflow-hidden bg-white shadow-lg">
+      <div className="relative sm:h-160 w-full overflow-hidden bg-white shadow-lg">
         {/* Hero Image */}
         <img
-            src="/images/home.png"
-            alt="Nagu saabsan"
-            className="
+          src="/images/home.png"
+          alt="Nagu saabsan"
+          className="
           block
           h-[500px]
           w-full
@@ -257,7 +257,7 @@ const Home = () => {
         <div className="absolute inset-0 flex items-center">
           {/* Gradient */}
           <div
-              className=" absolute inset-y-0 left-0 w-full bg-gradient-to-r from-white
+            className=" absolute inset-y-0 left-0 w-full bg-gradient-to-r from-white
             via-white/90 to-transparent
             sm:w-[95%]
             md:w-[80%]
@@ -277,7 +277,7 @@ const Home = () => {
             "
           >
             <h1
-                className="mt-2 text-4xl font-bold leading-tight text-gray-900
+              className="mt-2 text-4xl font-bold leading-tight text-gray-900
               sm:text-3xl
               md:text-4xl
               lg:text-6xl"
@@ -285,24 +285,16 @@ const Home = () => {
               Hel Gurigaaga Riyada.
             </h1>
 
-            <p
-              className=" mt-4 max-w-xl text-xl leading-6 text-gray-800 sm:text-sm sm:leading-7 md:text-lg"
-            >
+            <p className=" mt-4 max-w-xl text-xl leading-6 text-gray-800 sm:text-sm sm:leading-7 md:text-lg">
               Waxaan kaa caawinaynaa inaad hesho guri ku habboon baahidaada,
               miisaaniyaddaada iyo goobta aad jeceshahay.
             </p>
-            <div className="flex items-center gap-8 mt-6 ">
+            <div className="mt-6 sm:items-center sm:gap-5">
               <button
-                className="bg-orange-500 py-2 px-6 rounded-2xl text-2xl  text-white cursor-pointer"
+                className="w-fit rounded-2xl bg-orange-500 px-4 py-2 text-lg text-white cursor-pointer"
                 onClick={aboutUs}
               >
                 About Us
-              </button>
-              <button
-                className="bg-orange-500 py-2 px-6 rounded-2xl text-2xl text-white cursor-pointer"
-                onClick={hanti}
-              >
-                Properties
               </button>
             </div>
           </div>
@@ -644,7 +636,7 @@ const Home = () => {
           <div className="mt-8">
             <div>
               <h1 className="mb-4 text-2xl font-bold text-center text-gray-900 md:text-2xl lg:text-4xl">
-               Sidee Ayuu U Shaqeeyaa?
+                Sidee Ayuu U Shaqeeyaa?
               </h1>
             </div>
           </div>

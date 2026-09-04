@@ -35,12 +35,12 @@ const Contact = () => {
   };
   return (
     <>
-      <div className="relative w-full overflow-hidden bg-white shadow-lg">
+      <div className="relative sm:h-160 w-full overflow-hidden bg-white shadow-lg">
         {/* Hero Image */}
         <img
           src="/images/contact.png"
           alt="Nagu saabsan"
-          className="block h-[500px] w-full object-cover object-center sm:h-[550px] md:h-[500px] lg:h-[550px]"
+          className="block h-[500px] w-full object-cover object-center sm:h-[650px] md:h-[500px] lg:h-[650px]"
         />
 
         {/* Content Area */}
@@ -119,7 +119,7 @@ const Contact = () => {
 
                 <p className="mt-1 text-sm text-gray-600">+252 61 4596290</p>
 
-                <p className="text-sm text-gray-600">+252 6 0000000</p>
+                <p className="text-sm text-gray-600">+252 61 0000000</p>
               </div>
             </div>
 
@@ -143,11 +143,11 @@ const Contact = () => {
                 </h3>
 
                 <p className="mt-1 text-sm text-gray-600">
-                  info@ad8irealestate.com
+                  info@ad8.com
                 </p>
 
                 <p className="text-sm text-gray-600">
-                  support@ad8realestate.com
+                  support@ad8.com
                 </p>
               </div>
             </div>
