@@ -1,7 +1,7 @@
 const About = () => {
   return (
     <div className="min-h-screen overflow-hidden bg-gradient-to-br from-orange-50 to-rose-100">
-      <div className="relative sm:h-160 w-full overflow-hidden bg-white shadow-lg ">
+      <div className="relative sm:h-dvh w-full overflow-hidden bg-white shadow-lg ">
         {/* Hero Image */}
         <img
           src="/images/hero.png"

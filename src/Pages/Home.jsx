@@ -236,18 +236,18 @@ const Home = () => {
 
   return (
     <>
-      <div className="relative sm:h-160 w-full overflow-hidden bg-white shadow-lg">
+      <div className="relative h-160 w-full sm:h-dvh overflow-hidden bg-white shadow-lg">
         {/* Hero Image */}
         <img
           src="/images/home.png"
           alt="Nagu saabsan"
           className="
           block
-          h-[500px]
+          h-[600px]
           w-full
           object-cover
           object-center
-          sm:h-[550px]
+          sm:h-[650px]
           md:h-[500px]
           lg:h-[650px]
           "

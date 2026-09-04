@@ -35,12 +35,12 @@ const Contact = () => {
   };
   return (
     <>
-      <div className="relative sm:h-160 w-full overflow-hidden bg-white shadow-lg">
+      <div className="relative sm:h-dvh w-full overflow-hidden bg-white shadow-lg">
         {/* Hero Image */}
         <img
           src="/images/contact.png"
           alt="Nagu saabsan"
-          className="block h-[500px] w-full object-cover object-center sm:h-[650px] md:h-[500px] lg:h-[650px]"
+          className="block h-[600px] w-full object-cover object-center sm:h-[650px] md:h-[500px] lg:h-[650px]"
         />
 
         {/* Content Area */}
