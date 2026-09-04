@@ -7,7 +7,7 @@ import Agents from "./Pages/Agents";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Home from "./Pages/Home";
-import NotFound from "./Componants/NotFound";
+import NotFound from "./Components/NotFound";
 import AgentDetails from "./Pages/AgentDetails";
 
 const router = createBrowserRouter([
@@ -34,7 +34,7 @@ const router = createBrowserRouter([
       },
       {
         path: "agents/:agentId",
-        element: <AgentDetails />
+        element: <AgentDetails />,
       },
       {
         path: "about",
