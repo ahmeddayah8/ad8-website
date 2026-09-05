@@ -15,7 +15,6 @@ https://ad8-website.vercel.app/
 - Property details pages
 - Real estate agents section
 - Agent profile pages
-- Favorites page
 - About page
 - Contact page
 - Responsive navigation
